@@ -15,8 +15,8 @@ class BindProvider extends ServiceProvider
      */
     public function boot()
     {
-        Route::bind('binding', function () {
-            dd();
-        });
+        // Route::bind('binding', function () {
+        //     dd();
+        // });
     }
 }
